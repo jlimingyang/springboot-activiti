@@ -1,9 +1,11 @@
 #springboot-activiti
 
-### 项目安装
-1. 后台：gradle build
-2. 前台：npm install 
-        bower install
+##项目本地部署##
+
+1. 进入项目根目录，执行`gradle build` 安装`spring boot`依赖
+2. 安装`js`依赖: `npm install`
+3. 执行`bower install` 安装`angular js`依赖
+5. 打开 http://localhost:9001 进行访问
 
 ### 项目介绍
 1. 后台框架基于Spring Boot，Spring Security
