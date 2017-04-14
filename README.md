@@ -1,5 +1,10 @@
 #springboot-activiti
 
+### 项目安装
+1. 后台：gradle build
+2. 前台：npm install 
+        bower install
+
 ### 项目介绍
 1. 后台框架基于Spring Boot，Spring Security
 2. 工作流使用Activiti
