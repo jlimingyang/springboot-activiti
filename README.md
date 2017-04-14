@@ -1,7 +1,6 @@
 #springboot-activiti
 
-##项目本地部署##
-
+###项目本地部署###
 1. 进入项目根目录，执行`gradle build` 安装`spring boot`依赖
 2. 安装`js`依赖: `npm install`
 3. 执行`bower install` 安装`angular js`依赖
