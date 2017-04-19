@@ -16,7 +16,9 @@
 1. 项目分为测试环境和生成环境，在`application.yml`中配置`active: dev`或`active: prod`
 2. 工作流Activiti没有创建自带的用户权限表，而是由我们自己创建用户权限视图，创建脚本在`import.sql`中
 3. 项目首次启动时，`activiti.cfg.xml`中
->  <property name="databaseSchemaUpdate" value="true"/>
+***  
+    <property name="databaseSchemaUpdate" value="true"/>
+***
 value值应设为`true`,以后启动更改为`none`,否则会因activiti表已存在导致启动失败
 4. 本项目是在jhipster项目基础上构建，具体可参考github：https://github.com/jhipster/generator-jhipster
 
