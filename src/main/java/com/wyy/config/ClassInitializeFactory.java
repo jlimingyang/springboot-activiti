@@ -30,7 +30,7 @@ import java.net.URL;
 import java.util.*;
 
 /**
- * Created by Administrator on 2016/12/23.
+ * 系统初始化数据
  */
 @Component
 public  class  ClassInitializeFactory  implements InitializingBean {

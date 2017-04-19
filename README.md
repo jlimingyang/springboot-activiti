@@ -4,12 +4,18 @@
 1. 进入项目根目录，执行`gradle build` 安装`spring boot`依赖
 2. 安装`js`依赖: `npm install`
 3. 执行`bower install` 安装`angular js`依赖
+4. 执行`gulp serve` 编译前台页面
 5. 打开 http://localhost:9001 进行访问
 
 ### 项目介绍
 1. 后台框架基于Spring Boot，Spring Security
 2. 工作流使用Activiti
 3. 前台框架基于Angular js
+
+### 注意事项
+1. 项目分为测试环境和生成环境，在`application.yml`中配置`active: dev`或`active: prod`
+2. 工作流Activiti没有创建自带的用户权限表，而是由我们自己创建用户权限视图，创建脚本在`import.sql`中
+3. 本项目是在jhipster项目基础上构建，具体可参考github：https://github.com/jhipster/generator-jhipster
 
 ###下面是项目部分截图
 ![screenshot 1](http://git.oschina.net/wyy396731037/springboot-activiti/raw/master/1.png "在线编辑流程图")

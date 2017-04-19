@@ -182,6 +182,7 @@ dependencies {
     }
     compile 'cn.easyproject:ojdbc7:12.1.0.2.0'
     compile "com.h2database:h2"
+    compile "mysql:mysql-connector-java:5.1.26"
     compile "fr.ippon.spark.metrics:metrics-spark-reporter:${metrics_spark_reporter_version}"
     compile "org.mapstruct:mapstruct-jdk8:${mapstruct_version}"
 
