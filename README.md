@@ -19,6 +19,12 @@
 ***  
 > <property name="databaseSchemaUpdate" value="true"/>
 ***
+
+***
+    <div class="footer">
+        &copy; 2004 Foo Corporation
+    </div>
+***
 value值应设为`true`,以后启动更改为`none`,否则会因activiti表已存在导致启动失败
 4. 本项目是在jhipster项目基础上构建，具体可参考github：https://github.com/jhipster/generator-jhipster
 
