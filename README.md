@@ -1,11 +1,12 @@
 #springboot-activiti
 
 ###项目本地部署###
-1. 进入项目根目录，执行`gradle build` 安装`spring boot`依赖
-2. 安装`js`依赖: `npm install`
-3. 执行`bower install` 安装`angular js`依赖
-4. 执行`gulp serve` 编译前台页面
-5. 打开 http://localhost:9001 进行访问
+1. 下载附件`gradle-2.12.rar`，解压到任意目录，添加到PATH环境变量`xx\gradle-2.12\bin`
+2. 进入项目根目录，双击`gradlew.bat` 安装`spring boot`包依赖
+3. 安装`js`依赖: `npm install`
+4. 执行`bower install` 安装`angular js`依赖
+5. 执行`gulp serve` 编译前台页面
+6. 打开 http://localhost:9001 进行访问
 
 ### 项目介绍
 1. 后台框架基于Spring Boot，Spring Security
