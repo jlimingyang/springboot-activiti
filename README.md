@@ -6,7 +6,7 @@
 3. 安装`js`依赖: `npm install`
 4. 执行`bower install` 安装`angular js`依赖
 5. 执行`gulp serve` 编译前台页面
-6. 打开 http://localhost:9001 进行访问
+6. 打开 http://localhost:9000 (登录：用户名：admin 密码：admin 企业号：admin) 进行访问
 
 ### 项目介绍
 1. 后台框架基于Spring Boot，Spring Security
